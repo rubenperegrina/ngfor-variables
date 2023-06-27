@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngform-variables": {
+    "ngfor-variables": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngform-variables",
+            "outputPath": "dist/ngfor-variables",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngform-variables:build:production"
+              "browserTarget": "ngfor-variables:build:production"
             },
             "development": {
-              "browserTarget": "ngform-variables:build:development"
+              "browserTarget": "ngfor-variables:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngform-variables:build"
+            "browserTarget": "ngfor-variables:build"
           }
         },
         "test": {
